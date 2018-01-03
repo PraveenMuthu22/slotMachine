@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'myFont';
+    src: url("/assets/fonts/regular.ttf");
+}
+
+/* layouts */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#headerDiv {
+    background: radial-gradient(farthest-corner at 60% 55%, #8c179a, #1a2969);
+    text-align: center;
+    height: 15vh;
+    width: 100vw;
+}
+
+.logo {
+    display: inline-block;
+    max-width: 99%;
+    max-height: 99%;
+    width: auto;
+    height: auto;
+}
+
+#midDiv {
+    height: 70vh;
+    width: 100%;
+    padding: 0px;
+    font-family: myFont, Serif;
+    vertical-align: top;
+}
+
+#reelArea {
+    float: left;
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    background: #eeae4e;
+    font-size: 30px;
+}
+
+#creditsDiv {
+    float: left;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    background: radial-gradient(farthest-corner at 60% 55%, #aa6821, #884f1d);
+}
+
+#reelsDiv {
+    height: 70%;
+    text-align: center;
+}
+
+.symbolsImg {
+    display: inline-block;
+    max-width: 25%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    min-width: 160px;
+}
+
+#reelMessage {
+    clear: left;
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Table*/
+#creditTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 20%;
+}
+
+.creditLabelsClass {
+    width: 60%;
+    font-size: 30px;
+}
+
+.creditValuesClass {
+    text-align: center;
+    font-size: 30px;
+}
+
+#creditVal, #bettingVal, .creditLabelsClass {
+    font-size: 25px;
+}
+
+#statTD {
+    text-align: center;
+    height: 60px;
+}
+
+.creditAreaBtns {
+    background: radial-gradient(50% 50%, #8c179a, #1a2969);
+    border-radius: 10%;
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid transparent;
+    outline: none;
+}
+
+.creditAreaBtns:active {
+    background: radial-gradient(farthest-corner at 60% -30%, #8c179a, #1a2969);
+    padding: 1px 0px 0px 0px;
+
+}
+
+#nameTxt{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-family: myFont;
+    background: #eeae4e;
+}
+
+/*Buttons*/
+
+#buttonsDiv {
+    background: radial-gradient(farthest-corner at 60% 55%, #8c179a, #1a2969);
+    height: 15vh;
+    text-align: center;
+    width: 100vw;
+    bottom: 0px;
+}
+
+.controlBtns {
+    float: left;
+    font-family: myFont, Serif;
+    width: 8%;
+    height: 70%;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 1.5%;
+    border-radius: 30%;
+    border: solid transparent;
+    outline: none;
+}
+
+#reset {
+    background: radial-gradient(50% 50%, #c40009, #6e0f00);
+    border-radius: 10%;
+    width: 8%;
+    height: 50%;
+    font-size: 150%;
+    margin-top: 2.3%;
+    margin-left: 25%;
+}
+
+#reset:active {
+    background: radial-gradient(farthest-corner at 60% -30%, #c40009, #6e0f00);
+    padding: 2.5px 0px 0px 0px;
+
+}
+
+#betOne, #betThree {
+    background: radial-gradient(50% 50%, #49bc39, #49923b);
+}
+
+#betOne:active, #betThree:active {
+    background: radial-gradient(farthest-corner at 60% -30%, #49bc39, #49923b);
+    padding: 2.5px 0px 0px 0px;
+}
+
+#spin {
+    background: radial-gradient(50% 50%, #f65a3f, #cf000a);
+}
+
+#spin:active {
+    background: radial-gradient(farthest-corner at 60% -30%, #f65a3f, #cf000a);
+    padding: 2.5px 0px 0px 0px;
+}
+
+#addCoin {
+    background: radial-gradient(50% 50%, #fbea07, #e8b63c);
+}
+
+#addCoin:active {
+    background: radial-gradient(farthest-corner at 60% -30%, #fbea07, #e8b63c);
+    padding: 2.5px 0px 0px 0px;
+}
+
+
+
+#cashInButton{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+# Show game main page
+GET     /                           controllers.HomeController.startGame
+
+GET     /stats                      controllers.HomeController.statsPage()
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+

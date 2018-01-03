@@ -1,0 +1,44 @@
+@()
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Spin To Win </title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/statsStyles.css")">
+    </head>
+    <body>
+        <div id ="headerDiv">
+            <img src="@routes.Assets.versioned("images/logo.png")" class = "logo">
+            <img src="@routes.Assets.versioned("images/title.png")" class = "logo">
+        </div>
+
+        <div id = "midDiv">
+            <table id = "scoreTable">
+                <tr id = "titleRow">
+                    <td class = "cell"> Position </td>
+                    <td class = "cell"> Name </td>
+                    <td class = "cell"> Score </td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+        <script>
+                // Initialize Firebase
+                var config = {
+                    apiKey: "AIzaSyApBs4kZu0_sj-W0Rv882MVf_fT-c9ReVs",
+                    authDomain: "slotmachine-578bb.firebaseapp.com",
+                    databaseURL: "https://slotmachine-578bb.firebaseio.com",
+                    projectId: "slotmachine-578bb",
+                    storageBucket: "",
+                    messagingSenderId: "604806588767"
+                };
+                firebase.initializeApp(config);
+        </script>
+
+        <script type="text/javascript" src='@routes.Assets.versioned("scripts/Stats.js")'></script>
+
+
+
+    </body>
+
+</html>
